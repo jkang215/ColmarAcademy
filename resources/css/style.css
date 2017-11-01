@@ -316,3 +316,25 @@ h4 {
 .thesis-content .column2 .article:first-child {
   background-color: lightgrey;
 }
+
+/* Footer */
+footer {
+  border-top: 1px lightgrey solid;
+  color: dimgrey;
+  display: flex;
+  font-size: 0.8rem;
+  height: 70px;
+  justify-content: flex-start;
+  padding-top: 16px;
+  width: 100%;
+}
+
+footer .copyright {
+  margin-left: 24px;
+  width: 100%;
+}
+
+footer nav ul {
+  display: flex;
+  float: right;
+}
