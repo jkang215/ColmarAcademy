@@ -226,12 +226,93 @@ h4 {
 }
 
 .course-content .courses {
-  color: darkgrey;
+  color: dimgrey;
   margin: 8px 0;
 }
 
 .course-content .description {
-  color: darkgrey;
+  color: dimgrey;
   line-height: 1.4;
   margin-bottom: 24px;
+}
+
+/* Thesis section */
+.thesis {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 950px;
+  width: 100%;
+}
+
+.thesis h2 {
+  margin: 32px 0;
+}
+
+.thesis .thesis-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.thesis-content .column1 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 60%;
+}
+
+.thesis-content .column1 .article {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.thesis-content .column1 h4 {
+  margin-left: 24px;
+  margin-bottom: 8px;
+}
+
+.thesis-content .column1 .description {
+  color: dimgrey;
+  line-height: 1.4;
+  margin-left: 24px;
+  margin-bottom: 32px;
+}
+
+.thesis-content video {
+  height: auto;
+  margin: 0 24px 24px 24px;
+  width: 90%;
+}
+
+.thesis-content .column2 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 40%;
+}
+
+.thesis-content .column2 .article {
+  align-items: center;
+  display: flex;
+}
+
+.thesis-content .column2 img {
+  height: auto;
+  margin: 16px;
+  width: 35%;
+}
+
+.thesis-content .column2 .article-content {
+  line-height: 1.5;
+  width: 65%;
+}
+
+.thesis-content .column2 .article-content .description {
+  color: dimgrey;
+}
+
+.thesis-content .column2 .article:first-child {
+  background-color: lightgrey;
 }
