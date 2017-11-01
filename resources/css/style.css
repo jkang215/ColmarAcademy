@@ -1,0 +1,103 @@
+html {
+  font-family: "Nunito Sans", Verdana, sans-serif;
+  font-size: 24px;
+}
+
+/* Header */
+header {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  height: 64px;
+  width: 100%;
+}
+
+header img {
+  margin-left: 24px;
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+header h2 {
+  color: gray;
+  font-size: 32px;
+  font-weight: normal;
+  width: 500px;
+}
+
+header h2 strong {
+  color: black;
+  font-weight: bold;
+}
+
+header nav {
+  float: right;
+  width: 100%;
+}
+
+header nav ul {
+  display: flex;
+  float: right;
+}
+
+nav ul li {
+  margin: 0 8px;
+}
+
+nav ul li:last-child {
+  margin-right: 24px;
+}
+
+/* Banner section */
+.banner {
+  align-items: center;
+  background-color: lightgrey;
+  display: flex;
+  font-size: 36px;
+  justify-content: center;
+  width: 100%;
+}
+
+.banner img {
+  margin: 32px 24px;
+  width: 60%;
+}
+
+.banner .banner-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-content h2,
+.banner-content span,
+.banner-content .banner-button {
+  margin: 24px 0;
+}
+
+.banner-content h2 {
+  font-weight: 900;
+}
+
+.banner-content span,
+.banner-content .banner-button {
+  font-weight: bold;
+}
+
+.banner-button {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+.banner-button span {
+  color: white;
+}
+
+.banner-button:hover {
+  background-color: darkgrey;
+}
