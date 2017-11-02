@@ -148,6 +148,11 @@ nav ul li:last-child {
     width: 100%;
   }
 
+  .banner-content h2,
+  .banner-content span {
+    margin-left: 16px;
+  }
+
   .banner-button {
     width: 90%;
   }
@@ -441,7 +446,30 @@ h4 {
 }
 
 @media only screen and (max-width: 540px) {
+  .thesis-content .column1 h4,
+  .thesis-content .column1 .description,
+  .thesis-content .column2 {
+    display: none;
+  }
 
+  .thesis {
+    border-top: 1px lightgrey solid;
+    height: auto;
+  }
+
+  .thesis-content .column1,
+  .thesis-content video {
+    margin: 0;
+    width: 100%;
+  }
+
+  .thesis h2 {
+    margin: 32px 0 16px 0;
+  }
+
+  .thesis-content video {
+    margin-bottom: 24px;
+  }
 }
 
 /* Footer */
