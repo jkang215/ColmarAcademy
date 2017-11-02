@@ -17,6 +17,10 @@ header img {
   margin-left: 24px;
 }
 
+header img.mobile {
+  display: none;
+}
+
 h2 {
   font-size: 56px;
   font-weight: 900;
@@ -50,6 +54,28 @@ nav ul li {
 
 nav ul li:last-child {
   margin-right: 24px;
+}
+
+@media only screen and (max-width: 540px) {
+  header {
+    justify-content: space-around;
+  }
+
+  header h2 {
+    display: none;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  header img.mobile {
+    display: inline;
+  }
+
+  header img {
+    height: 60%;
+  }
 }
 
 /* Banner section */
@@ -101,6 +127,30 @@ nav ul li:last-child {
 
 .banner-button:hover {
   background-color: darkgrey;
+}
+
+@media only screen and (max-width: 540px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner img {
+    margin: 0;
+    width: 100%;
+  }
+
+  .banner-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 32px 16px;
+    width: 100%;
+  }
+
+  .banner-button {
+    width: 90%;
+  }
 }
 
 /* Information section */
@@ -180,6 +230,45 @@ h4 {
   background-color: lightgrey;
 }
 
+@media only screen and (max-width: 540px) {
+  .info {
+    height: auto;
+  }
+
+  .info .column1 {
+    display: none;
+  }
+
+  .info .column2 {
+    border: 0;
+    margin: 16px;
+    width: 100%;
+  }
+
+  .info .column2 .article {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    margin: 16px;
+    width: 100%;
+  }
+
+  .info .column2 .article img {
+    height: 300px;
+    width: 100%;
+  }
+
+  .info .article-content {
+    margin: 16px;
+    width: 100%;
+  }
+
+  .info .column2 .article:last-child {
+    background-color: white;
+    margin-bottom: 32px;
+  }
+}
+
 /* Learning section */
 .learning {
   align-items: center;
@@ -234,6 +323,10 @@ h4 {
   color: dimgrey;
   line-height: 1.4;
   margin-bottom: 24px;
+}
+
+@media only screen and (max-width: 540px) {
+
 }
 
 /* Thesis section */
@@ -317,6 +410,10 @@ h4 {
   background-color: lightgrey;
 }
 
+@media only screen and (max-width: 540px) {
+
+}
+
 /* Footer */
 footer {
   border-top: 1px lightgrey solid;
@@ -337,4 +434,19 @@ footer .copyright {
 footer nav ul {
   display: flex;
   float: right;
+}
+
+@media only screen and (max-width: 540px) {
+  footer {
+    align-items: center;
+    border-top: 0;
+  }
+
+  footer .copyright {
+    margin: 16px 0 16px 24px;
+  }
+
+  footer nav {
+    display: none;
+  }
 }
