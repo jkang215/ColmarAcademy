@@ -326,7 +326,37 @@ h4 {
 }
 
 @media only screen and (max-width: 540px) {
+  .learning {
+    background-color: white;
+    border-top: 1px lightgrey solid;
+  }
 
+  .course-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .course img,
+  .course-content .courses,
+  .course-content .description {
+    display: none;
+  }
+
+  .course-list .course {
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    width: 100%;
+  }
+
+  .course .course-content {
+    background-color: lightgrey;
+    height: auto;
+  }
+
+  .course-content h4 {
+    margin: 16px;
+  }
 }
 
 /* Thesis section */
