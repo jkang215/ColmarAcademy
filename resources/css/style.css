@@ -56,7 +56,7 @@ nav ul li:last-child {
   margin-right: 24px;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 600px) {
   header {
     justify-content: space-around;
   }
@@ -161,15 +161,19 @@ nav ul li:last-child {
 /* Information section */
 .info {
   display: flex;
-  height: 975px;
+  height: auto;
   width: 100%;
+}
+
+a:hover {
+  color: darkblue;
 }
 
 .info .column1 {
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: auto;
   margin: 32px 24px;
   width: 60%;
 }
@@ -191,7 +195,9 @@ nav ul li:last-child {
 }
 
 .info .column1 .article img {
+  height: auto;
   margin-bottom: 32px;
+  width: 100%;
 }
 
 .info .column1 .content {
@@ -235,7 +241,7 @@ h4 {
   background-color: lightgrey;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 600px) {
   .info {
     height: auto;
   }
@@ -330,7 +336,7 @@ h4 {
   margin-bottom: 24px;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 600px) {
   .learning {
     background-color: white;
     border-top: 1px lightgrey solid;
@@ -445,7 +451,7 @@ h4 {
   background-color: lightgrey;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 600px) {
   .thesis-content .column1 h4,
   .thesis-content .column1 .description,
   .thesis-content .column2 {
@@ -494,7 +500,7 @@ footer nav ul {
   float: right;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 600px) {
   footer {
     align-items: center;
     border-top: 0;
